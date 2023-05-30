@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reservas",
+  "info": {
+    "singularName": "reserva",
+    "pluralName": "reservas",
+    "displayName": "reserva",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "inicio": {
+      "type": "date"
+    },
+    "fim": {
+      "type": "date"
+    },
+    "adultos": {
+      "type": "integer"
+    },
+    "criancas": {
+      "type": "integer"
+    },
+    "total": {
+      "type": "float"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

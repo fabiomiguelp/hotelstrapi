@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "utilizadors",
+  "info": {
+    "singularName": "utilizador",
+    "pluralName": "utilizadors",
+    "displayName": "utilizador",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "apelido": {
+      "type": "string"
+    }
+  }
+}

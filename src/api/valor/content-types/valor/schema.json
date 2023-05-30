@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "valors",
+  "info": {
+    "singularName": "valor",
+    "pluralName": "valors",
+    "displayName": "valor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "preco_dia": {
+      "type": "float"
+    },
+    "mes": {
+      "type": "integer"
+    },
+    "mes_nome": {
+      "type": "string"
+    }
+  }
+}
